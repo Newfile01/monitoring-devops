@@ -1,0 +1,15 @@
+# Fichier permettant de surcharger les valeurs par défaut du charts HELM (ici celui d'Odoo)
+#
+
+service:
+  type: NodePort
+  nodePort: "30069"
+# Persistance d'Odoo (il y en a une deuxième)
+persistence:
+  enabled: false
+# Persistance de Postgre
+postgresql:
+# On autorise le chart Postgre mais on désactive la persistance, pas nécessaire ici  
+  enabled: true
+  persistence:
+    enabled: false
