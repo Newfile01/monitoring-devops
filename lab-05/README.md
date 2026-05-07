@@ -27,7 +27,7 @@ Il permet de :
 
 Les données sont gérables à cette adresse : https://prometheus.io/docs/prometheus/latest/configuration/configuration/#kubernetes_sd_config
 
-> [!WARNING]+
+> [!WARNING]
 > Bien vérifier que le clusterRole.yaml se trouvant dans les sources/prometheus a été appliqué
 > Si ce n'est pas le cas les requêtes de scrping seront rejetées.
 >
