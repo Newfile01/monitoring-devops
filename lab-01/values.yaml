@@ -1,3 +1,5 @@
+resourcesPreset: "small"
+
 service:
   type: NodePort
   nodePorts:

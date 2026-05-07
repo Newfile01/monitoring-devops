@@ -7,5 +7,5 @@ Nous suiverons donc les instructions stipulées à cette adresse : https://artif
 
 ```bash
 helm repo add oci://registry-1.docker.io/bitnamicharts
-helm install my-release oci://registry-1.docker.io/bitnamicharts/odoo -f values.yaml
+helm install o-helm oci://registry-1.docker.io/bitnamicharts/odoo -f values.yaml
 ```
